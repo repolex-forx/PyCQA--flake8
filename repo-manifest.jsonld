@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/PyCQA/flake8/commit/229f6c5387a39932db2068b20dd1018f6dbe76b1",
       "git:hexsha": "229f6c5387a39932db2068b20dd1018f6dbe76b1",
-      "repolex:parseStatus": "metadata_complete"
+      "repolex:parseStatus": "ast_complete"
     },
     {
       "@id": "https://repolex.ai/r/PyCQA/flake8/commit/c35ff7c583efad378a861de4af2cc61196221357",
