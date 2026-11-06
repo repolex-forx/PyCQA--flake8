@@ -1,6 +1,6 @@
-# Repolex Knowledge Graph of PyCQA/flake8
+# Repolex Knowledge Graph of pycqa/flake8
 
-RDF knowledge graph data for [PyCQA/flake8](https://github.com/PyCQA/flake8), parsed by [repolex](https://repolex.ai).
+RDF knowledge graph data for [pycqa/flake8](https://github.com/pycqa/flake8), parsed by [repolex](https://repolex.ai).
 
 > **Note**: This data is experimental and subject to change without notice.
 
@@ -23,7 +23,7 @@ rlex --help
 To load this repo's data:
 
 ```bash
-rlex download PyCQA/flake8
+rlex download pycqa/flake8
 ```
 
 Consult `rlex --help` for other options, including SPARQL queries, HTTP server, and interactive visualization.
@@ -36,9 +36,13 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 .
 ├── aggregate
 │   ├── ast
+│   │   ├── 1a50f8923b5aec2bef0f3e5ee84cf78ffc821fd5
+│   │   │   └── chunk-001.nq.gz
 │   │   └── 229f6c5387a39932db2068b20dd1018f6dbe76b1
 │   │       └── chunk-001.nq.gz
 │   └── repolex
+│       ├── 1a50f8923b5aec2bef0f3e5ee84cf78ffc821fd5
+│       │   └── chunk-001.nq.gz
 │       └── 229f6c5387a39932db2068b20dd1018f6dbe76b1
 │           └── chunk-001.nq.gz
 └── blob
@@ -49,6 +53,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
     ├── 0301af38f1ef543d1b7d81eee0497f47dddf38e4.nq.gz
     ├── 053148f848642cb6c79ecb61968f0a9d3fea8bb4.nq.gz
     ├── 054dfef641e67589e8ec1e00e3b9abe1cc89f9c2.nq.gz
+    ├── 057c48239a676f134a867676fc24bfb5d67a9ba0.nq.gz
     ├── 07cf0bf7c488b4c0e6bc25a45888d1402b3c000b.nq.gz
     ├── 07d8d5041a500bb37a4ae7a33c5568c22ff6b89b.nq.gz
     ├── 08eb6a104c5f4308a04a43ed75a8f41c1af2ca84.nq.gz
@@ -115,6 +120,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
     ├── 5575f8f5a25bfd8eb9ab59253642d06c4821ec15.nq.gz
     ├── 55bccdc33501a6140d26868c61057b62520b694b.nq.gz
     ├── 57abda11d117b8c97af359fb76a3579171033a84.nq.gz
+    ├── 57e5c09ca1ea05dae72e2fbe1caba72bd18277a2.nq.gz
     ├── 588564861631a35fe71659a319d4b8479babd793.nq.gz
     ├── 59c227d308537fe165d44f317389f9353306be56.nq.gz
     ├── 5a2e2b066f22bfce6e9ac0fd2dec1e37488622c7.nq.gz
@@ -144,6 +150,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
     ├── 769893c58004d4fc3caa84be3ab68cc47126f837.nq.gz
     ├── 77898e9862db87bf01a62902fb2d7f8eaf01e5cb.nq.gz
     ├── 77f75b945965d4b12361b749a7bc44f265b2c878.nq.gz
+    ├── 7948519f6ae0f3b3b239565b8f18d0f02fa95a40.nq.gz
     ├── 7c6294cc972dc9f2ad73e0af6d8a5417f0f96297.nq.gz
     ├── 7fc504ae20a7f8a3ba68a39482d7489bef258395.nq.gz
     ├── 80a902476341edd2eb9e292e5b29a670fa2c6e2e.nq.gz
@@ -155,6 +162,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
     ├── 85bcff426ad3c475adf6d7ecb2af102832d6d70a.nq.gz
     ├── 85dbf33e5bdaab0fa3489a8a9db92dae75e96452.nq.gz
     ├── 89b6bf6d7bd9f10fc6e94363420b7b7fbda17a2a.nq.gz
+    ├── 8b4e46530ffeb476d796f3167a697b4a1012c5e3.nq.gz
     ├── 8dd66c70cafbe6c7e2dc0292d26e2beda5ff66a4.nq.gz
     ├── 8f7e7c9d8687bb45472129630aa612d892d6a611.nq.gz
     ├── 8fcff88c8472e2b5929d75b98e9dbc1d3c531f28.nq.gz
@@ -183,6 +191,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
     ├── a6a203ba938d8107674bba9312492158a36d97cd.nq.gz
     ├── a7599ef7ed494e8650611d70147df02c94bf6242.nq.gz
     ├── a7f4081c4aec792d5c53d27cff577ed38c26302a.nq.gz
+    ├── a9f104e0d24d51fed5fb088c6be9257a3d39ed98.nq.gz
     ├── ac413fbb1d7a4644b18499b7de35869239b95998.nq.gz
     ├── ae4079406d6da8d937942ba59544c74d90e1db62.nq.gz
     ├── b1742ca100e63cd1a6d65d43e91757984872c5b8.nq.gz
@@ -193,6 +202,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
     ├── b5c4889f2b059a604da2b6e4aaaa7335341aba79.nq.gz
     ├── b5d08ff0066f238ecc50e8be0e4d9dcb8f4a7e2b.nq.gz
     ├── b6c9870fe87ebee3c18af5848dfbacd2c7785df3.nq.gz
+    ├── b7439776cf6646bee6d31bac8ba24321251e7755.nq.gz
     ├── b7a221a619f87a8427d68aed985ce8776983759e.nq.gz
     ├── bbbfdffc2a5d7b0a78a40bed3ab17a86642bd1f1.nq.gz
     ├── bd33015716a01f0fe7d6db0717e070c5ff5dcd86.nq.gz
@@ -231,17 +241,9 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
     ├── e1024feb4b727630e54624e1aaaebf9fc886f560.nq.gz
     ├── e18efc4ec1b62fd0d849cc3aa517484a1257690f.nq.gz
     ├── e5c086e132f862bd00ddfc48e61c6ac11ba13dc1.nq.gz
-    ├── e5e3d6f94008a5b394c0ec3fc3d873dc13cf07f0.nq.gz
-    ├── e69de29bb2d1d6434b8b29ae775ad8c2e48c5391.nq.gz
-    ├── e7430f058594314c28dcf41cc31c9417a48c3e30.nq.gz
-    ├── e7591e7462028d7f317eb39b6b6f1b8d622a2739.nq.gz
-    ├── e81768f132d5c54c3e548d561c1ba321c86fdfd2.nq.gz
-    ├── e8cbe09c4e51ac561b38e182731de8535fd00e8e.nq.gz
-    ├── ea55ccc467c61904d89b1e4be59322698d2d609c.nq.gz
-    ├── ebcada558ae13cc3d937c8a23c08f00d1a0a59c6.nq.gz
-    └── edb01dfa8b0e4c42ab610ce5d7ad25fdd64715b6.nq.gz
+    └── e5e3d6f94008a5b394c0ec3fc3d873dc13cf07f0.nq.gz
 
-7 directories, 200 files
+9 directories, 200 files
 ```
 
 | Directory | What it contains |
@@ -259,7 +261,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 
 ## Source repository
 
-[PyCQA/flake8](https://github.com/PyCQA/flake8)
+[pycqa/flake8](https://github.com/pycqa/flake8)
 
 ---
-*Parsed on 2026-10-12 by [repolex](https://repolex.ai)*
+*Parsed on 2026-11-06 by [repolex](https://repolex.ai)*
