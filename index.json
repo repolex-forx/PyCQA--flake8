@@ -3,6 +3,11 @@
   "repo": "flake8",
   "versions": [
     {
+      "commit": "c48217e1fc006c2dddd14df54e83b67da15de5cd",
+      "tag": "7.3.0",
+      "parsed_at": "2026-11-22T02:57:29.724662+00:00"
+    },
+    {
       "commit": "1a50f8923b5aec2bef0f3e5ee84cf78ffc821fd5",
       "tag": "",
       "parsed_at": "2026-11-06T02:06:42.278811+00:00"
