@@ -721,7 +721,8 @@
       ],
       "ast": [
         "aggregate/ast/c48217e1fc006c2dddd14df54e83b67da15de5cd/chunk-001.nq.gz"
-      ]
+      ],
+      "lsp": "aggregate/lsp/c48217e1fc006c2dddd14df54e83b67da15de5cd.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
